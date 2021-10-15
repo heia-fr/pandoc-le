@@ -1,4 +1,4 @@
-FROM pandoc/ubuntu-crossref:latest
+FROM pandoc/ubuntu-crossref:2.14.2
 
 RUN apt-get update && apt-get install -y \
     python3 \
